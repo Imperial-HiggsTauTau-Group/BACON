@@ -1,0 +1,28 @@
+{
+    "files": [
+        {
+            "sources": [
+                "davs://eoscms.cern.ch/eos/cms/store/group/phys_tau/irandreo/htt_skim_v1/Run3_2023/BBHto2Tau_M_65/nano_0.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo/HLepRare/skim_2024_v2/Run3_2023/BBHto2Tau_M_65/nano_0.root"
+            ]
+        },
+        {
+            "sources": [
+                "davs://eoscms.cern.ch/eos/cms/store/group/phys_tau/irandreo/htt_skim_v1/Run3_2023/BBHto2Tau_M_65/nano_1.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo/HLepRare/skim_2024_v2/Run3_2023/BBHto2Tau_M_65/nano_1.root"
+            ]
+        },
+        {
+            "sources": [
+                "davs://eoscms.cern.ch/eos/cms/store/group/phys_tau/irandreo/htt_skim_v1/Run3_2023/BBHto2Tau_M_65/prodReport_nano.json"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo/HLepRare/skim_2024_v2/Run3_2023/BBHto2Tau_M_65/prodReport_nano.json"
+            ]
+        }
+    ]
+}
