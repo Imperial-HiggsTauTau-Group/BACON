@@ -5,6 +5,14 @@ import json
 import os
 import concurrent.futures
 
+DASGOCLIENT = "/cvmfs/cms.cern.ch/common/dasgoclient"
+
+REDIRECTORS = [
+    "root://cmsxrootd.fnal.gov/",
+    "root://xrootd-cms.infn.it/",
+    "root://cms-xrd-global.cern.ch/",
+]
+
 sample_dir_2024 = {
     'Tau_Run2024C': ('Run2024C', 'Tau', 'MINIv6NANOv15-v1'),
     'Tau_Run2024D': ('Run2024D', 'Tau', 'MINIv6NANOv15-v1'),
@@ -54,10 +62,10 @@ sample_dir_2024 = {
     'MuonEG_Run2024C': ('Run2024C', 'MuonEG', 'MINIv6NANOv15-v1'),
     'MuonEG_Run2024D': ('Run2024D', 'MuonEG', 'MINIv6NANOv15-v1'),
     'MuonEG_Run2024E': ('Run2024E', 'MuonEG', 'MINIv6NANOv15-v1'),
-    'MuonEG_Run2024F': ('Run2024F', 'MuonEG', 'MINIv6NANOv15-v1'),
+    'MuonEG_Run2024F': ('Run2024F', 'MuonEG', 'MINIv6NANOv15-v2'),
     'MuonEG_Run2024G': ('Run2024G', 'MuonEG', 'MINIv6NANOv15-v3'),
     'MuonEG_Run2024H': ('Run2024H', 'MuonEG', 'MINIv6NANOv15-v2'),
-    'MuonEG_Run2024I_v1': ('Run2024I', 'MuonEG', 'MINIv6NANOv15-v1'),
+    'MuonEG_Run2024I_v1': ('Run2024I', 'MuonEG', 'MINIv6NANOv15-v2'),
     'MuonEG_Run2024I_v2': ('Run2024I', 'MuonEG', 'MINIv6NANOv15_v2-v2'),
 
     'DYto2E_Bin-MLL-10to50_powheg': ('RunIII2024Summer24NanoAODv15', 'DYto2E_Bin-MLL-10to50_TuneCP5_13p6TeV_powheg-pythia8', '150X_mcRun3_2024_realistic_v2-v2'),
@@ -101,8 +109,6 @@ sample_dir_2024 = {
     'WtoLNu-4Jets_2J': ('RunIII2024Summer24NanoAODv15', 'WtoLNu-4Jets_Bin-2J_TuneCP5_13p6TeV_madgraphMLM-pythia8', '150X_mcRun3_2024_realistic_v2-v2'),
     'WtoLNu-4Jets_3J': ('RunIII2024Summer24NanoAODv15', 'WtoLNu-4Jets_Bin-3J_TuneCP5_13p6TeV_madgraphMLM-pythia8', '150X_mcRun3_2024_realistic_v2-v2'),
     'WtoLNu-4Jets_4J': ('RunIII2024Summer24NanoAODv15', 'WtoLNu-4Jets_Bin-4J_TuneCP5_13p6TeV_madgraphMLM-pythia8', '150X_mcRun3_2024_realistic_v2-v2'),
-
-    
 }
 
 
@@ -139,24 +145,30 @@ def create_jsons(args):
 
     for sample in samples:
         if args.year == 'Run3_2024' and  sample.startswith(('Tau', 'EGamma', 'Muon', 'MuonEG')):
-            era, physics_object, tag = sample_dir_2024[sample][0], sample_dir_2024[sample][1], sample_dir_2024[sample][2]
-            source_sample_path = f'{args.source_path}/data/{era}/{physics_object}/NANOAOD/{tag}'
+            era, primary, tag = sample_dir_2024[sample]
+            dataset = f'/{primary}/{era}-{tag}/NANOAOD'
         elif args.year == 'Run3_2024' :
-            era, process, tag = sample_dir_2024[sample][0], sample_dir_2024[sample][1], sample_dir_2024[sample][2]
-            source_sample_path = f'{args.source_path}/mc/{era}/{process}/NANOAODSIM/{tag}'
+            era, process, tag = sample_dir_2024[sample]
+            dataset = f'/{process}/{era}-{tag}/NANOAODSIM' 
         else:
             source_sample_path = f'{args.source_path}/{args.year}/{sample}'
 
         if args.year == 'Run3_2024':
-            result = subprocess.run(['gfal-ls', source_sample_path], capture_output=True, text=True, check=True)
-            subdirs = result.stdout.splitlines()
+            # Query DAS to get list of files
+            das_query = f'{DASGOCLIENT} --query="file dataset={dataset}" --limit=0 --format=plain'
+            result = subprocess.run(das_query, shell=True, capture_output=True, text=True, check=True)
+            lfns = [line.strip() for line in result.stdout.splitlines() if line.strip()]
+            if not lfns:
+                raise RuntimeError(f"DAS returned no files for dataset {dataset}")
 
-            files = []
-            for subdir in subdirs:
-                subdir_path = f'{source_sample_path}/{subdir}'
-                result_sub = subprocess.run(['gfal-ls', subdir_path], capture_output=True, text=True, check=True)
-                sub_files = [f'{subdir}/{fname}' for fname in result_sub.stdout.splitlines()]
-                files.extend(sub_files)
+            # Try redirectors; accept the first that passes a quick probe on one PFN
+            for xr in REDIRECTORS:
+                cand = [xr + lfn.lstrip('/') for lfn in lfns]
+                if subprocess.run(['gfal-stat', cand[0]], capture_output=True).returncode == 0:
+                    files = cand
+                    break
+            else:
+                raise RuntimeError(f"None of the redirectors worked for {dataset}: {REDIRECTORS}")
         else:
             result = subprocess.run(['gfal-ls', source_sample_path], capture_output=True, text=True, check=True)
             files = result.stdout.splitlines()
@@ -170,7 +182,7 @@ def create_jsons(args):
                 index = files.index(file)
                 dest_name = f'nano_{index}.root'
                 file_entry = {
-                    "sources": [f'{source_sample_path}/{file}'],
+                    "sources": [file],
                     "destinations": [f'{args.destination_path}/{args.year}/{sample}/{dest_name}']
                 }
             else:
