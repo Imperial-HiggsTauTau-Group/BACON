@@ -1,0 +1,164 @@
+# Data 
+- Tau_Run2024C
+- Tau_Run2024D
+- Tau_Run2024E
+- Tau_Run2024F
+- Tau_Run2024G
+- Tau_Run2024H
+- Tau_Run2024I_v1
+- Tau_Run2024I_v2
+- EGamma0_Run2024C
+- EGamma0_Run2024D
+- EGamma0_Run2024E
+- EGamma0_Run2024F
+- EGamma0_Run2024G
+- EGamma0_Run2024H
+- EGamma0_Run2024I_v1
+- EGamma0_Run2024I_v2
+- EGamma1_Run2024C
+- EGamma1_Run2024D
+- EGamma1_Run2024E
+- EGamma1_Run2024F
+- EGamma1_Run2024G
+- EGamma1_Run2024H
+- EGamma1_Run2024I_v1
+- EGamma1_Run2024I_v2
+- Muon0_Run2024C
+- Muon0_Run2024D
+- Muon0_Run2024E
+- Muon0_Run2024F
+- Muon0_Run2024G
+- Muon0_Run2024H
+- Muon0_Run2024I_v1
+- Muon0_Run2024I_v2
+- Muon1_Run2024C
+- Muon1_Run2024D
+- Muon1_Run2024E
+- Muon1_Run2024F
+- Muon1_Run2024G
+- Muon1_Run2024H
+- Muon1_Run2024I_v1
+- Muon1_Run2024I_v2
+- MuonEG_Run2024C
+- MuonEG_Run2024D
+- MuonEG_Run2024E
+- MuonEG_Run2024F
+- MuonEG_Run2024G
+- MuonEG_Run2024H
+- MuonEG_Run2024I_v1
+- MuonEG_Run2024I_v2
+
+# Drell-Yan NLO (inclusive only)
+- DYto2E_MLL_50_amcatnloFXFX
+- DYto2Mu_MLL_50_amcatnloFXFX
+- DYto2Tau_MLL_50_amcatnloFXFX
+
+# TTbar
+- TTto2L2Nu
+- TTtoLNu2Q
+
+# W+jets
+- WtoENu_madgraphMLM
+- WtoMuNu_madgraphMLM
+- WtoTauNu_madgraphMLM
+
+# Single top
+# - ST_t_channel_top_4f_InclusiveDecays #TBbarQ_t_channel_4FS_
+# - ST_t_channel_antitop_4f_InclusiveDecays # TbarBQ_t_channel_4FS_
+- ST_tW_top_2L2Nu #  TWminusto2L2Nu
+- ST_tW_antitop_2L2Nu # TbarWplusto2L2Nu
+- ST_tW_top_LNu2Q # TWminustoLNu2Q ## 28.76M/30M
+- ST_tW_antitop_LNu2Q # TbarWplustoLNu2Q ## 29.4M/30M
+
+# Diboson
+- WW
+- WZ
+- ZZ
+
+# MSSM Signal
+- GluGluHto2Tau_M_60_2HDM_II
+- GluGluHto2Tau_M_65_2HDM_II
+- GluGluHto2Tau_M_70_2HDM_II
+- GluGluHto2Tau_M_75_2HDM_II
+- GluGluHto2Tau_M_80_2HDM_II
+- GluGluHto2Tau_M_85_2HDM_II
+- GluGluHto2Tau_M_90_2HDM_II
+- GluGluHto2Tau_M_95_2HDM_II
+- GluGluHto2Tau_M_100_2HDM_II
+- GluGluHto2Tau_M_105_2HDM_II
+- GluGluHto2Tau_M_110_2HDM_II
+- GluGluHto2Tau_M_115_2HDM_II
+- GluGluHto2Tau_M_120_2HDM_II
+- GluGluHto2Tau_M_125_2HDM_II
+- GluGluHto2Tau_M_130_2HDM_II
+- GluGluHto2Tau_M_135_2HDM_II
+- GluGluHto2Tau_M_140_2HDM_II
+- GluGluHto2Tau_M_160_2HDM_II
+- GluGluHto2Tau_M_180_2HDM_II
+- GluGluHto2Tau_M_200_2HDM_II
+- GluGluHto2Tau_M_250_2HDM_II
+- GluGluHto2Tau_M_300_2HDM_II
+- GluGluHto2Tau_M_350_2HDM_II
+- GluGluHto2Tau_M_400_2HDM_II
+- GluGluHto2Tau_M_450_2HDM_II
+- GluGluHto2Tau_M_500_2HDM_II
+- GluGluHto2Tau_M_600_2HDM_II
+- GluGluHto2Tau_M_700_2HDM_II
+- GluGluHto2Tau_M_800_2HDM_II
+- GluGluHto2Tau_M_900_2HDM_II
+- GluGluHto2Tau_M_1000_2HDM_II
+- GluGluHto2Tau_M_1100_2HDM_II
+- GluGluHto2Tau_M_1200_2HDM_II
+- GluGluHto2Tau_M_1400_2HDM_II
+- GluGluHto2Tau_M_1600_2HDM_II
+- GluGluHto2Tau_M_1800_2HDM_II
+- GluGluHto2Tau_M_2000_2HDM_II
+- GluGluHto2Tau_M_2300_2HDM_II
+- GluGluHto2Tau_M_2600_2HDM_II
+- GluGluHto2Tau_M_2900_2HDM_II
+- GluGluHto2Tau_M_3200_2HDM_II
+- GluGluHto2Tau_M_3500_2HDM_II
+- BBHto2Tau_M_60
+- BBHto2Tau_M_65
+- BBHto2Tau_M_70
+- BBHto2Tau_M_75
+- BBHto2Tau_M_80
+- BBHto2Tau_M_85
+- BBHto2Tau_M_90
+- BBHto2Tau_M_95
+- BBHto2Tau_M_100
+- BBHto2Tau_M_105
+- BBHto2Tau_M_110
+- BBHto2Tau_M_115
+- BBHto2Tau_M_120
+- BBHto2Tau_M_125
+- BBHto2Tau_M_130
+- BBHto2Tau_M_135
+- BBHto2Tau_M_140
+- BBHto2Tau_M_160
+- BBHto2Tau_M_180
+- BBHto2Tau_M_200
+- BBHto2Tau_M_250
+- BBHto2Tau_M_300
+- BBHto2Tau_M_350
+- BBHto2Tau_M_400
+- BBHto2Tau_M_450
+- BBHto2Tau_M_500
+- BBHto2Tau_M_600
+- BBHto2Tau_M_700
+- BBHto2Tau_M_800
+- BBHto2Tau_M_900
+- BBHto2Tau_M_1000
+- BBHto2Tau_M_1100
+- BBHto2Tau_M_1200
+- BBHto2Tau_M_1400
+- BBHto2Tau_M_1600
+- BBHto2Tau_M_1800
+- BBHto2Tau_M_2000
+- BBHto2Tau_M_2300
+- BBHto2Tau_M_2600
+- BBHto2Tau_M_2900
+- BBHto2Tau_M_3200
+- BBHto2Tau_M_3500
+
+# Total size across all jsons: 23716505219449 bytes (23.72 TB)
