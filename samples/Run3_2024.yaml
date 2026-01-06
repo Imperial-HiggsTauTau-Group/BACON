@@ -48,10 +48,19 @@
 - MuonEG_Run2024I_v1
 - MuonEG_Run2024I_v2
 
-# Drell-Yan NLO (inclusive only)
+# Drell-Yan NLO
 - DYto2E_MLL_50_amcatnloFXFX
+- DYto2E_MLL_50_0J_amcatnloFXFX
+- DYto2E_MLL_50_1J_amcatnloFXFX
+- DYto2E_MLL_50_2J_amcatnloFXFX
 - DYto2Mu_MLL_50_amcatnloFXFX
+- DYto2Mu_MLL_50_0J_amcatnloFXFX
+# - DYto2Mu_MLL_50_1J_amcatnloFXFX  # Temporarily removed due to missing dataset
+- DYto2Mu_MLL_50_2J_amcatnloFXFX
 - DYto2Tau_MLL_50_amcatnloFXFX
+- DYto2Tau_MLL_50_0J_amcatnloFXFX
+- DYto2Tau_MLL_50_1J_amcatnloFXFX
+- DYto2Tau_MLL_50_2J_amcatnloFXFX
 
 # TTbar
 - TTto2L2Nu

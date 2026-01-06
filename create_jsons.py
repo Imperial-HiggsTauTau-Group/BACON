@@ -68,9 +68,20 @@ sample_dir_2024 = {
     'MuonEG_Run2024I_v1': ('Run2024I', 'MuonEG', 'MINIv6NANOv15-v2'),
     'MuonEG_Run2024I_v2': ('Run2024I', 'MuonEG', 'MINIv6NANOv15_v2-v2'),
 
-    'DYto2E_MLL_50_amcatnloFXFX': ('RunIII2024Summer24NanoAODv15', 'DYto2Mu-2Jets_Bin-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8', '150X_mcRun3_2024_realistic_v2-v6'),
-    'DYto2Mu_MLL_50_amcatnloFXFX': ('RunIII2024Summer24NanoAODv15', 'DYto2E-2Jets_Bin-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8', '150X_mcRun3_2024_realistic_v2-v4'),
+    'DYto2E_MLL_50_amcatnloFXFX': ('RunIII2024Summer24NanoAODv15', 'DYto2E-2Jets_Bin-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8', '150X_mcRun3_2024_realistic_v2-v4'),
+    'DYto2E_MLL_50_0J_amcatnloFXFX': ('RunIII2024Summer24NanoAODv15', 'DYto2E-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8', '150X_mcRun3_2024_realistic_v2-v2'),
+    'DYto2E_MLL_50_1J_amcatnloFXFX': ('RunIII2024Summer24NanoAODv15', 'DYto2E-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8', '150X_mcRun3_2024_realistic_v2-v3'),
+    'DYto2E_MLL_50_2J_amcatnloFXFX': ('RunIII2024Summer24NanoAODv15', 'DYto2E-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8', '150X_mcRun3_2024_realistic_v2-v2'),
+    
+    'DYto2Mu_MLL_50_amcatnloFXFX': ('RunIII2024Summer24NanoAODv15', 'DYto2Mu-2Jets_Bin-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8', '150X_mcRun3_2024_realistic_v2-v6'),
+    'DYto2Mu_MLL_50_0J_amcatnloFXFX': ('RunIII2024Summer24NanoAODv15', 'DYto2Mu-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8', '150X_mcRun3_2024_realistic_v2-v3'),
+    # 'DYto2Mu_MLL_50_1J_amcatnloFXFX': ('RunIII2024Summer24NanoAODv15', 'DYto2Mu-1Jets_Bin-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8', '150X_mcRun3_2024_realistic_v2-v4'),
+    'DYto2Mu_MLL_50_2J_amcatnloFXFX': ('RunIII2024Summer24NanoAODv15', 'DYto2Mu-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8', '150X_mcRun3_2024_realistic_v2-v3'),
+    
     'DYto2Tau_MLL_50_amcatnloFXFX': ('RunIII2024Summer24NanoAODv15', 'DYto2Tau-2Jets_Bin-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8','150X_mcRun3_2024_realistic_v2-v7'),
+    'DYto2Tau_MLL_50_0J_amcatnloFXFX': ('RunIII2024Summer24NanoAODv15', 'DYto2Tau-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8','150X_mcRun3_2024_realistic_v2-v4'),
+    'DYto2Tau_MLL_50_1J_amcatnloFXFX': ('RunIII2024Summer24NanoAODv15', 'DYto2Tau-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8','150X_mcRun3_2024_realistic_v2-v2'),
+    'DYto2Tau_MLL_50_2J_amcatnloFXFX': ('RunIII2024Summer24NanoAODv15', 'DYto2Tau-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8','150X_mcRun3_2024_realistic_v2-v2'),
 
     
     'TTto2L2Nu': ('RunIII2024Summer24NanoAODv15', 'TTto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8', '150X_mcRun3_2024_realistic_v2-v3' ),
