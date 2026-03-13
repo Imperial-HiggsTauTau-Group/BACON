@@ -188,6 +188,8 @@ sample_dir_2024 = {
     'BBHto2Tau_M_3200': ('RunIII2024Summer24NanoAODv15', 'BBH-Hto2Tau_Par-M-3200_TuneCP5_13p6TeV_powheg-pythia8', '150X_mcRun3_2024_realistic_v2-v2'),
     'BBHto2Tau_M_3500': ('RunIII2024Summer24NanoAODv15', 'BBH-Hto2Tau_Par-M-3500_TuneCP5_13p6TeV_powheg-pythia8', '150X_mcRun3_2024_realistic_v2-v2'),
 
+    'GluGluHTo2Tau_UncorrelatedDecay_SM_UnFiltered_ProdAndDecay': ('RunIII2024Summer24NanoAODv15', 'GluGluHto2Tau_Par-M-125_TuneCP5_13p6TeV_powhegMINNLO-pythia8', '150X_mcRun3_2024_realistic_v2-v2'),
+
 }
 
 
