@@ -188,7 +188,7 @@ sample_dir_2024 = {
     'BBHto2Tau_M_3200': ('RunIII2024Summer24NanoAODv15', 'BBH-Hto2Tau_Par-M-3200_TuneCP5_13p6TeV_powheg-pythia8', '150X_mcRun3_2024_realistic_v2-v2'),
     'BBHto2Tau_M_3500': ('RunIII2024Summer24NanoAODv15', 'BBH-Hto2Tau_Par-M-3500_TuneCP5_13p6TeV_powheg-pythia8', '150X_mcRun3_2024_realistic_v2-v2'),
 
-    'GluGluHTo2Tau_M125': ('RunIII2024Summer24NanoAODv15', 'GluGluH-HTo2Tau_Par-M-125_TuneCP5_13p6TeV_powheg-pythia8', '150X_mcRun3_2024_realistic_v2-v2'),
+    'GluGluHto2Tau_M125_amcatnloFXFX': ('RunIII2024Summer24NanoAODv15', 'GluGluH-HTo2Tau_Par-M-125_TuneCP5_13p6TeV_powheg-pythia8', '150X_mcRun3_2024_realistic_v2-v2'),
 
 }
 
@@ -281,8 +281,8 @@ def create_jsons(args):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Create JSONs from YAMLs')
     parser.add_argument('--year', required=True, help='Year to process')
-    parser.add_argument('--destination_path', required=False, help='Path to create directories on dcache', default='davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo/')
-    parser.add_argument('--source_path', required=False, help='Path to sample root files', default='davs://eoscms.cern.ch/eos/cms/store')
+    parser.add_argument('--destination_path', required=False, help='Path to create directories on dcache', default='davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo/')  # For Higgs samples: davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo/HiggsSamples/
+    parser.add_argument('--source_path', required=False, help='Path to sample root files', default='davs://eoscms.cern.ch/eos/cms/store')  # For Higgs samples: /eos/cms/store/group/phys_higgs/HLepRare/skim_2025_v1/
     parser.add_argument('--get_size', action='store_true', help='Get total size of all unique source files across all jsons')
     args = parser.parse_args()
 
