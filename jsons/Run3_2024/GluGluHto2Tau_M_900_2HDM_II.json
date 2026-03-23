@@ -1,0 +1,1020 @@
+{
+    "files": [
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2550000/85454806-6b88-47c4-9932-8ed3c3cb88ec.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_0.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2550000/af8d240e-8857-44f4-9eb9-e8958c7ab0e7.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_1.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2550000/d0c3d8dd-f91d-4669-a8b0-0b70af054c2c.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_2.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2550000/51bdf3ed-0d9e-464b-a8ac-01d8e5729b93.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_3.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2550000/90a82732-df14-436f-bf17-926fbb21c09b.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_4.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2550000/1140c915-041c-4f54-be0b-1943a46f6ba8.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_5.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2550000/08a0ce5d-baa1-464a-a4e8-eaec4de82846.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_6.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2550000/47097020-6f01-49e7-837e-67da5c37086d.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_7.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2550000/5f64f9e6-c323-45ef-b9c5-c6b377035885.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_8.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2550000/fd977307-9639-4a75-b8e9-2eb50a75741c.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_9.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2550000/3b5c9282-f5e1-4770-8bf9-58207f9b3c4e.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_10.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2550000/336acb7e-9417-4bc9-bf35-19f833def701.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_11.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2550000/a2c6ada2-1ba2-4b7d-943c-5af6494cf188.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_12.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2550000/1f9c460b-efc2-4a50-a81e-7812de54b698.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_13.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2550000/465e08fb-891f-4a0a-a92f-c17a7fa30bbf.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_14.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2550000/23f8a358-e902-41df-a484-7168b0295800.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_15.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2550000/fac3aace-9d25-4f19-b586-a4eca6239d0b.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_16.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2550000/095f9d6a-7249-4727-8f51-135d2a884d64.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_17.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2550000/9235863f-898e-44ad-8f71-e14a0846c536.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_18.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2550000/74c44571-c7d9-4414-a9ed-422c26d1b928.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_19.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2550000/6d0442ab-a30f-44ef-8fa6-f937e1bf9909.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_20.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2550000/435fe344-1416-4a0b-9ec5-b31c962909cd.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_21.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2550000/7bcc3489-1b0d-4253-9f35-1fd8f5b74089.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_22.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2550000/e28b3172-5f9a-41bb-a02e-b9fb249322f2.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_23.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2550000/26c74e41-7147-4a2c-8dea-cfffcae651f9.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_24.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2550000/d11cea24-2d77-4c7e-b767-a8dfbba3ae08.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_25.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2550000/992f0130-d578-42de-bde0-d9cf52e55caa.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_26.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2550000/552f7da4-5c8b-4d5d-814c-818eb3d42140.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_27.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2550000/03c0a0a1-4571-47bf-b2a4-f5364d2b1aea.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_28.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2550000/d3f502aa-93d0-46b8-bc97-82d2ec0d74c5.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_29.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2550000/063e985b-3656-4194-a81e-3c57e6746b4b.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_30.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2550000/51acc834-c449-4e42-a32d-dccbc0766c7c.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_31.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2550000/c22aa89a-f8c1-4beb-a3b3-3b6833a12886.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_32.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2550000/70425fc5-4623-44fd-ac3f-6c0ae6754715.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_33.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2550000/15d502af-8eec-4904-932d-9f89be3e2efa.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_34.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2550000/fd20ccf5-b186-468a-b51f-8b8bc0bd5e0d.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_35.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2550000/e61754f1-38c3-4fc6-9647-d3f5ec420a25.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_36.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2550000/76cac946-52e2-43aa-a021-3b670037cc67.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_37.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2550000/fb924660-b2a5-4d6b-927c-ebf5835fb0b6.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_38.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2550000/770b5300-ac48-4c30-86aa-882558330eed.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_39.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2550000/4b75314f-7a06-4a7f-8c83-5e05d39a6ccf.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_40.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2550000/260ce447-1899-4f39-94ce-1507016186c1.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_41.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2550000/bdcd356e-7e01-448b-9487-710f12aa354c.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_42.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2550000/c1fd2c78-e4db-4b22-a411-27bdd808f23f.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_43.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2550000/27e2768a-ef05-49c1-a641-250f7aef31fb.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_44.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2550000/80ef93a1-4748-48ff-96d9-9dacc7df8d17.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_45.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2550000/b9a504af-d3d7-4634-8d79-c5a1385214d5.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_46.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2550000/d0c991c9-4b96-49a3-8c3a-51bfd4533693.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_47.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2550000/cc3c2f66-6a3b-484a-9c3c-3df9a648ab60.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_48.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2550000/0d76dc76-47f9-4910-ba58-07d4d7d44572.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_49.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2550000/73056d58-e454-4928-8fc9-4d2739141b91.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_50.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2550000/4f761a25-d3c1-40ce-80a9-cd4c127c7880.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_51.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2550000/7b229c11-8a63-47a9-8855-41f9d0f02efa.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_52.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2550000/2173a05c-50a3-4b39-857a-74c3065437d5.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_53.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2550000/c0a01280-b347-471f-be6d-71060a92d998.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_54.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2550000/28923cf6-22ae-4c95-b311-3f41bd649633.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_55.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2550000/92c64b79-34df-4800-af79-24a551603385.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_56.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2550000/5a31db35-494d-4957-b429-884de3aea720.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_57.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2550000/8e51770d-0fb6-48a7-a160-d69316235857.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_58.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2550000/7467e527-cf08-4c3c-a14d-dce6084a25cd.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_59.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2550000/46e53e98-4366-4555-aaf1-27b1776dc41f.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_60.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2550000/c680fc96-d62a-495d-bdcd-1d662717e148.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_61.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/140000/92134a8c-604f-47f9-a7e2-61e7aa3ba4e2.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_62.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/140000/93921066-b815-4a4c-b257-069d27648f6f.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_63.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/140000/ab209d5c-0a25-4d3d-ae77-1be786df01a8.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_64.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/140000/32470dbe-ce0e-435b-aac6-9d5752dccc36.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_65.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/140000/b443ccd7-87ba-4624-9d61-edd8d8509c3e.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_66.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/140000/e7dacaa4-54ae-4b72-b4a0-4f3b9d6b2655.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_67.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/140000/a1c1118a-3cd7-4cd7-bf2c-c650c682aa1e.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_68.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/140000/29ab28ba-ed94-491a-a318-b48f27265980.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_69.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/140000/541d9d42-c6b7-4f20-8aba-a763b2b881d3.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_70.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/140000/ee8940e9-0037-4b36-ac6f-5164b2c7ecca.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_71.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/140000/f798f1cd-fdbf-4041-ae8d-3f92be2c1a12.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_72.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2550000/369cd834-71a3-4e5a-8581-a76cdba34c7d.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_73.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2550000/468482a3-1593-479a-9b87-1691eec128eb.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_74.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2550000/d26c5e62-f2d9-439a-976b-60a938c9040d.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_75.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2550000/37674a84-f6e1-42e2-98e7-e21a864cebd9.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_76.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2550000/82cdc4af-4d64-4b54-b609-232c4245a509.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_77.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2550000/43d0ecd9-2ad2-4c82-a75a-0a1e66052feb.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_78.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2550000/d65c70b7-929c-4e87-ad81-2f4cc46d441d.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_79.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/140000/bb98bb38-9150-4843-830b-cdb618046494.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_80.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/140000/b9b400e9-2c3d-401c-bf86-509c09bca460.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_81.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/140000/5d0d3a57-c981-480d-9b2b-88622db092c2.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_82.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/140000/4e96584c-3bbb-4271-923d-cba9a1c473dd.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_83.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/140000/e57e886f-4924-453d-884d-030f60cbbe97.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_84.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/140000/71d49eb5-8000-4828-b872-7219eae9e436.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_85.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/140000/db0ada2d-f22c-4305-8b48-217a07da86e4.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_86.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/140000/00cc18dc-fb50-4cdb-83d4-f050d2277392.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_87.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/140000/19b5c948-ddb9-4529-ab01-5a10607141da.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_88.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/140000/76d1f2c7-7562-43c5-b20c-043f15cde059.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_89.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/140000/0cb91324-10b3-4893-810f-d9a25ebc7221.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_90.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/140000/1efeb452-6103-4956-9fb5-5957dd548cc8.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_91.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/140000/81c8687b-3223-4304-8939-1622f9befb0a.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_92.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/140000/36812d4f-140c-4ff5-97dd-64153a128509.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_93.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/140000/efc2c13a-1be0-4d22-99c2-a5a60faaab28.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_94.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/140000/e02d16e7-efb7-40b0-88d7-c77b61c3e7ed.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_95.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/140000/081ceb6c-9a94-4569-a98a-eafd293164e3.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_96.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/140000/3653cbe0-8712-4352-adb8-247ca0254b13.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_97.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2550000/1c1d5851-a044-4137-943d-259d71cb25ac.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_98.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2550000/7df55759-13ef-4dce-9c9a-5836012bf8eb.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_99.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2550000/02ec4578-039e-41f6-b05d-e019ba369a83.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_100.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/140000/a8fa5b39-4540-4395-825a-d5b6751df0db.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_101.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/140000/b5a782d9-9fd8-4eb9-ae4f-3b9993fbf2b1.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_102.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/140000/74f9615c-3aec-429a-9d8c-c3499557636f.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_103.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/140000/08d53d3b-6b0b-4948-859e-98d3ba8c848b.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_104.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/140000/9c4691e6-8b54-43f0-a167-d6e77512e5e2.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_105.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/140000/ce32c7a3-a91b-4d52-8359-886542d9d1db.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_106.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/140000/a7f41910-2b30-4e07-8bbf-46e5c3895080.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_107.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/140000/a1937068-91b2-47fa-ae32-faf87670e3ee.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_108.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/140000/caaf89e2-e181-4ef6-b601-d469528551ff.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_109.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/140000/883b39aa-85eb-4ab2-b36a-d00676638498.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_110.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/140000/6a48d0f1-eb9c-4316-8219-0052b37d1364.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_111.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/140000/482be912-53b8-4e16-8479-db904fcf5cd6.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_112.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/140000/0c939884-7645-410d-9ad7-230522f99e8d.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_113.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/140000/2d21ddd4-a655-472d-b170-e42624c3c901.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_114.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/140000/e8338704-6594-4ed3-a95f-08e3da6db8e8.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_115.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/140000/60bebdc2-4510-4785-830e-918c707564a2.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_116.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/140000/f2dd8cca-d33d-4ec3-9470-fa52cf936530.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_117.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/140000/54a0d853-f728-45a1-860f-e3a234265fad.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_118.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/140000/ef402c61-2c2f-4c8f-9d41-279dc1e5b89f.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_119.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/140000/b613639e-b0f4-4a50-b9ad-193414510c4a.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_120.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/140000/746c0dc0-ceb5-4ab2-a40c-7f2c9efe086b.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_121.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/140000/5c0210f9-c8bd-49e8-ab79-bdfacb4e6241.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_122.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/140000/1c070d9b-42bd-47c3-bde2-0cb0d232a882.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_123.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/140000/e8ec1437-b0b5-478f-94f4-66476b3b4c7a.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_124.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/140000/f9c390b5-821e-44bf-93d3-bfaebb18bf1d.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_125.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/mc/RunIII2024Summer24NanoAODv15/GluGluH-Hto2Tau_Par-M-900-2HDM-II_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/140000/f70e10e9-9e65-4354-b1cc-94789366b8dd.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo//Run3_2024/GluGluHto2Tau_M_900_2HDM_II/nano_126.root"
+            ]
+        }
+    ]
+}
