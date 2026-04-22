@@ -33,9 +33,10 @@ def create_jsons(args):
     with open(f'samples/{args.year}.yaml') as f:
         this_years_samples = yaml.load(f, Loader=yaml.FullLoader)
 
-    if args.samples:
-        samples = [s for s in this_years_samples if s in args.samples]
-
+    if args.specify_samples:
+        with open('specify_samples.yaml') as f:
+            specified_samples = yaml.load(f, Loader=yaml.FullLoader)['samples']
+        samples = [s for s in this_years_samples if s in specified_samples]
     else:
         samples = this_years_samples
 
@@ -51,10 +52,10 @@ def create_jsons(args):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Create JSONs from YAMLs')
     parser.add_argument('--year', required=True, help='Year to process')
-    parser.add_argument('--destination_path', required=False, help='Path to create directories on dcache', default='davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo/')  # For Higgs samples: davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo/HiggsSamples/
+    parser.add_argument('--destination_path', required=False, help='Path to create directories on dcache', default='davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo')  # For Higgs samples: davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo/HiggsSamples/
     parser.add_argument('--source_path', required=False, help='Path to sample root files', default='davs://eoscms.cern.ch/eos/cms/store')  # For Higgs samples: /eos/cms/store/group/phys_higgs/HLepRare/skim_2025_v1/
     parser.add_argument('--get_size', action='store_true', help='Get total size of all unique source files across all jsons')
-    parser.add_argument('--samples', required=False, nargs='+', help='List of samples (out of those in the YAML for the specified year) to create jsons for (default: all in YAML)', default=None)
+    parser.add_argument('--specify_samples', action='store_true', help='Specify samples to process in specify_samples.yaml')
     args = parser.parse_args()
 
     create_jsons(args)

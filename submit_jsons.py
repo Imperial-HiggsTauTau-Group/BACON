@@ -4,9 +4,25 @@ import yaml
 
 
 def submit_jsons(args):
+
+    if args.year == 'Run3_2024':
+        print('\033[4m\033[91mABORTED: fts-rest-transfer not supported for this year\033[0m')
+        return
+
     results = subprocess.run(['ls', f'jsons/{args.year}'], capture_output=True, text=True, check=True)
     jsons = results.stdout.splitlines()
 
+    if args.specify_samples:
+        with open('specify_samples.yaml') as f:
+            specified_samples = yaml.load(f, Loader=yaml.FullLoader)['samples']
+        jsons_to_submit = []
+        for specified_sample in specified_samples:
+            if f'{specified_sample}.json' in jsons:
+                jsons_to_submit.append(f'{specified_sample}.json')
+            else:
+                print(f"Warning: JSON for specified sample '{specified_sample}' not found in jsons/{args.year}")
+        jsons = jsons_to_submit
+            
     yaml_dict = {}
     for json_file in jsons:
 
@@ -21,6 +37,7 @@ def submit_jsons(args):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Submit Transfer')
     parser.add_argument('--year', required=True, help='Year to process')
+    parser.add_argument('--specify_samples', action='store_true', help='Specify samples to process in specify_samples.yaml')
     args = parser.parse_args()
 
     submit_jsons(args)
