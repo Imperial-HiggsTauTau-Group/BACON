@@ -2,6 +2,7 @@ import prettytable
 import yaml
 import argparse
 import subprocess
+from utils.gfal_check import dir_check
 
 def check_progress(args):
     with open(f'submissions/{args.year}.yaml', 'r') as f:
@@ -16,17 +17,26 @@ def check_progress(args):
     table = prettytable.PrettyTable()
     table.field_names = ['File', 'Status']
 
-    for key, value in yaml_dict.items():
-        job_id = value.split('\n')[1].split(': ')[1]
-        results = subprocess.run(['fts-rest-transfer-status', '-s', 'https://fts00.grid.hep.ph.ic.ac.uk:8446', job_id], capture_output=True, text=True, check=True)
-        job_status = results.stdout.split('\n')[1].split(': ')[1]
+    if args.year == 'Run3_2024':
+        for json_filename, value in yaml_dict.items():
+            if dir_check(args.year, json_filename):
+                table.add_row([json_filename, G+'FINISHED'+N], divider=True)
+            else:
+                table.add_row([json_filename, R+'FILES MISSING'+N], divider=True)
 
-        if job_status == 'FINISHED':
-            table.add_row([key, B+job_status+N], divider=True)
-        else:
-            table.add_row([key, R+job_status+N], divider=True)
+    else:
+        for key, value in yaml_dict.items():
+            job_id = value.split('\n')[1].split(': ')[1]
+            results = subprocess.run(['fts-rest-transfer-status', '-s', 'https://fts00.grid.hep.ph.ic.ac.uk:8446', job_id], capture_output=True, text=True, check=True)
+            job_status = results.stdout.split('\n')[1].split(': ')[1]
+
+            if job_status == 'FINISHED':
+                table.add_row([key, B+job_status+N], divider=True)
+            else:
+                table.add_row([key, R+job_status+N], divider=True)
 
     print(table)
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Create JSONs from YAMLs')
