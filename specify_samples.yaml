@@ -1,4 +1,22 @@
 year: Run3_2024
 
 samples:
-- DYto2Mu_MLL_50_1J_amcatnloFXFX
+# CP signals (filtered)
+- GluGluHTo2Tau_UncorrelatedDecay_Filtered
+- GluGluHTo2Tau_UncorrelatedDecay_CPodd_Filtered_ProdAndDecay
+- GluGluHTo2Tau_UncorrelatedDecay_MM_Filtered_ProdAndDecay
+- GluGluHTo2Tau_UncorrelatedDecay_SM_Filtered_ProdAndDecay
+- ZHToTauTau_UncorrelatedDecay_Filtered
+- WplusHToTauTau_UncorrelatedDecay_Filtered
+- WminusHToTauTau_UncorrelatedDecay_Filtered
+- VBFHToTauTau_UncorrelatedDecay_Filtered
+
+# CP signals (unfiltered)
+- GluGluHTo2Tau_UncorrelatedDecay_UnFiltered
+- GluGluHTo2Tau_UncorrelatedDecay_CPodd_UnFiltered_ProdAndDecay
+- GluGluHTo2Tau_UncorrelatedDecay_MM_UnFiltered_ProdAndDecay
+- GluGluHTo2Tau_UncorrelatedDecay_SM_UnFiltered_ProdAndDecay
+- ZHToTauTau_UncorrelatedDecay_UnFiltered
+- WplusHToTauTau_UncorrelatedDecay_UnFiltered
+- WminusHToTauTau_UncorrelatedDecay_UnFiltered
+- VBFHToTauTau_UncorrelatedDecay_UnFiltered

@@ -43,4 +43,5 @@ if __name__ == "__main__":
     parser.add_argument('--year', required=True, help='Year to process')
     args = parser.parse_args()
 
-    check_progress(args) 
+    check_progress(args)
+ 

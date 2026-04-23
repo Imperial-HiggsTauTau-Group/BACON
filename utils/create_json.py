@@ -9,11 +9,11 @@ REDIRECTORS = [
     "root://cms-xrd-global.cern.ch/",
 ]
 
-with open('create_json_utils/sample_dir_2024.json', 'r') as f:
+with open('utils/sample_dir_2024.json', 'r') as f:
     sample_dir_2024 = json.load(f)
 
 def create_json(sample, args):
-    if args.year == 'Run3_2024' and  sample.startswith(('Tau', 'EGamma', 'Muon', 'MuonEG')):
+    if args.year == 'Run3_2024' and sample.startswith(('Tau', 'EGamma', 'Muon', 'MuonEG')):
         era, primary, tag = sample_dir_2024[sample]
         dataset = f'/{primary}/{era}-{tag}/NANOAOD'
     elif args.year == 'Run3_2024' :
@@ -60,7 +60,6 @@ def create_json(sample, args):
             "destinations": [f'{args.destination_path}/{args.year}/{sample}/{file}']
         }
         data["files"].append(file_entry)
-
     
     with open(f'jsons/{args.year}/{sample}.json', 'w') as f:
         json.dump(data, f, indent=4)

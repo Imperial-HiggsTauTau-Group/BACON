@@ -788,5 +788,85 @@
         "RunIII2024Summer24NanoAODv15",
         "GluGluH-HTo2Tau_Par-M-125_TuneCP5_13p6TeV_powheg-pythia8",
         "150X_mcRun3_2024_realistic_v2-v2"
+    ],
+    "GluGluHTo2Tau_UncorrelatedDecay_Filtered": [
+        "RunIII2024Summer24NanoAODv15",
+        "GluGluH-Hto2TauUncorrelatedDecay_Fil-TauFilter_Par-M-125_TuneCP5_13p6TeV_powheg-pythia8",
+        "150X_mcRun3_2024_realistic_v2-v2"
+    ],
+    "GluGluHTo2Tau_UncorrelatedDecay_UnFiltered": [
+        "RunIII2024Summer24NanoAODv15",
+        "GluGluH-Hto2TauUncorrelatedDecay_Par-M-125_TuneCP5_13p6TeV_powheg-pythia8",
+        "150X_mcRun3_2024_realistic_v2-v2"
+    ],
+    "GluGluHTo2Tau_UncorrelatedDecay_SM_Filtered_ProdAndDecay": [
+        "RunIII2024Summer24NanoAODv15",
+        "GluGluHJJto2TauUncorrelatedDecay-CP-even_Fil-Tau_Par-M-125_TuneCP5_13p6TeV_powhegMINLO-pythia8",
+        "150X_mcRun3_2024_realistic_v2-v2"
+    ],
+    "GluGluHTo2Tau_UncorrelatedDecay_SM_UnFiltered_ProdAndDecay": [
+        "RunIII2024Summer24NanoAODv15",
+        "GluGluHJJto2TauUncorrelatedDecay-CP-even_Par-M-125_TuneCP5_13p6TeV_powhegMINLO-pythia8",
+        "150X_mcRun3_2024_realistic_v2-v2"
+    ],
+    "GluGluHTo2Tau_UncorrelatedDecay_MM_Filtered_ProdAndDecay": [
+        "RunIII2024Summer24NanoAODv15",
+        "GluGluHJJto2TauUncorrelatedDecay-CP-mix_Fil-Tau_Par-M-125_TuneCP5_13p6TeV_powhegMINLO-pythia8",
+        "150X_mcRun3_2024_realistic_v2-v2"
+    ],
+    "GluGluHTo2Tau_UncorrelatedDecay_MM_UnFiltered_ProdAndDecay": [
+        "RunIII2024Summer24NanoAODv15",
+        "GluGluHJJto2TauUncorrelatedDecay-CP-mix_Par-M-125_TuneCP5_13p6TeV_powhegMINLO-pythia8",
+        "150X_mcRun3_2024_realistic_v2-v2"
+    ],
+    "GluGluHTo2Tau_UncorrelatedDecay_CPodd_Filtered_ProdAndDecay": [
+        "RunIII2024Summer24NanoAODv15",
+        "GluGluHJJto2TauUncorrelatedDecay-CP-odd_Fil-Tau_Par-M-125_TuneCP5_13p6TeV_powhegMINLO-pythia8",
+        "150X_mcRun3_2024_realistic_v2-v2"
+    ],
+    "GluGluHTo2Tau_UncorrelatedDecay_CPodd_UnFiltered_ProdAndDecay": [
+        "RunIII2024Summer24NanoAODv15",
+        "GluGluHJJto2TauUncorrelatedDecay-CP-odd_Par-M-125_TuneCP5_13p6TeV_powhegMINLO-pythia8",
+        "150X_mcRun3_2024_realistic_v2-v2"
+    ],
+    "VBFHToTauTau_UncorrelatedDecay_Filtered": [
+        "RunIII2024Summer24NanoAODv15",
+        "VBFH-Hto2TauUncorrelatedDecay_Fil-TauFilter_Par-M-125_TuneCP5_13p6TeV_powheg-pythia8",
+        "150X_mcRun3_2024_realistic_v2-v2"
+    ],
+    "VBFHToTauTau_UncorrelatedDecay_UnFiltered": [
+        "RunIII2024Summer24NanoAODv15",
+        "VBFH-Hto2TauUncorrelatedDecay_Par-M-125_TuneCP5_13p6TeV_powheg-pythia8",
+        "150X_mcRun3_2024_realistic_v2-v2"
+    ],
+    "WminusHToTauTau_UncorrelatedDecay_Filtered": [
+        "RunIII2024Summer24NanoAODv15",
+        "WminusH-Hto2TauUncorrelatedDecay_Fil-TauFilter_Par-M-125_TuneCP5_13p6TeV_powhegMINNLO-pythia8",
+        "150X_mcRun3_2024_realistic_v2-v2"
+    ],
+    "WminusHToTauTau_UncorrelatedDecay_UnFiltered": [
+        "RunIII2024Summer24NanoAODv15",
+        "WminusH-Hto2TauUncorrelatedDecay_Par-M-125_TuneCP5_13p6TeV_powhegMINNLO-pythia8",
+        "150X_mcRun3_2024_realistic_v2-v2"
+    ],
+    "WplusHToTauTau_UncorrelatedDecay_Filtered": [
+        "RunIII2024Summer24NanoAODv15",
+        "WplusH-Hto2TauUncorrelatedDecay_Fil-TauFilter_Par-M-125_TuneCP5_13p6TeV_powhegMINNLO-pythia8",
+        "150X_mcRun3_2024_realistic_v2-v2"
+    ],
+    "WplusHToTauTau_UncorrelatedDecay_UnFiltered": [
+        "RunIII2024Summer24NanoAODv15",
+        "WplusH-Hto2TauUncorrelatedDecay_Par-M-125_TuneCP5_13p6TeV_powhegMINNLO-pythia8",
+        "150X_mcRun3_2024_realistic_v2-v2"
+    ],
+    "ZHToTauTau_UncorrelatedDecay_Filtered": [
+        "RunIII2024Summer24NanoAODv15",
+        "ZH-Hto2TauUncorrelatedDecay_Fil-TauFilter_Par-M-125_TuneCP5_13p6TeV_powhegMINNLO-pythia8",
+        "150X_mcRun3_2024_realistic_v2-v6"
+    ],
+    "ZHToTauTau_UncorrelatedDecay_UnFiltered": [
+        "RunIII2024Summer24NanoAODv15",
+        "ZH-Hto2TauUncorrelatedDecay_Par-M-125_TuneCP5_13p6TeV_powhegMINNLO-pythia8",
+        "150X_mcRun3_2024_realistic_v2-v6"
     ]
 }
