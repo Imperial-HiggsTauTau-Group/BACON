@@ -4,7 +4,7 @@ import subprocess
 import json
 import os
 import concurrent.futures
-from create_json_utils.create_json import create_json
+from utils.create_json import create_json
 
 def get_size(url):
     r = subprocess.run(['gfal-stat', url], capture_output=True, text=True)

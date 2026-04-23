@@ -3,7 +3,6 @@ import yaml
 import argparse
 import subprocess
 
-
 def check_progress(args):
     with open(f'submissions/{args.year}.yaml', 'r') as f:
         yaml_dict = yaml.load(f, Loader=yaml.FullLoader)
