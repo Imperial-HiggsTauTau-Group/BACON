@@ -54,12 +54,14 @@ def submit_json_gfal(year, json_file, chunk_size = 5):
         prepare_submission(f'condor/{year}/{sample_name}', f'{sample_name}_chunk_{i // chunk_size}', chunk)
         make_submission(f'condor/{year}/{sample_name}', f'{sample_name}_chunk_{i // chunk_size}')
 
+
 def tests():
     with open('condor/test/test.json', 'r') as f:        
         mappings = json.load(f)['files']
 
     prepare_submission('condor/test', 'test', mappings[0:2])
     make_submission('condor/test', 'test')
+
 
 if __name__ == "__main__": 
     tests()
