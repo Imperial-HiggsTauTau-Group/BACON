@@ -8,9 +8,13 @@ def prepare_submission(dir, filename, mappings_slice):
     with open(executable, 'w') as f:
         for mapping in mappings_slice:
             if len(mapping['sources']) == 1 and len(mapping['destinations']) == 1:                
-                f.write(f'gfal-copy -vvv -p {mapping["sources"][0]} {mapping["destinations"][0]}\n\n')            
+                f.write(f'gfal-copy -v -p {mapping["sources"][0]} {mapping["destinations"][0]}\n\n')            
             else:                
-                print('\033[91m' + f'Error: More than one source or destination found for mapping: {mapping}' + '\033[0m')
+                print(
+                      '\033[91m' +
+                      f'Error: More than one source or destination found for mapping: {mapping}' +
+                      '\033[0m'
+                    )
 
     with open(f'{dir}/{filename}.sub', 'w') as f:        
         f.write(

@@ -1,7 +1,6 @@
 import subprocess
 import json
-
-DASGOCLIENT = "/cvmfs/cms.cern.ch/common/dasgoclient"
+from utils.das import DASQuery
 
 REDIRECTORS = [
     "root://cmsxrootd.fnal.gov/",
@@ -9,24 +8,13 @@ REDIRECTORS = [
     "root://cms-xrd-global.cern.ch/",
 ]
 
-with open('utils/sample_dir_2024.json', 'r') as f:
-    sample_dir_2024 = json.load(f)
-
 def create_json(sample, args):
-    if args.year == 'Run3_2024' and sample.startswith(('Tau', 'EGamma', 'Muon', 'MuonEG')):
-        era, primary, tag = sample_dir_2024[sample]
-        dataset = f'/{primary}/{era}-{tag}/NANOAOD'
-    elif args.year == 'Run3_2024' :
-        era, process, tag = sample_dir_2024[sample]
-        dataset = f'/{process}/{era}-{tag}/NANOAODSIM' 
-    else:
-        source_sample_path = f'{args.source_path}/{args.year}/{sample}'
-
-    if args.year == 'Run3_2024':
+    if args.year == 'Run3_2024': # 2024 samples - query DAS for file list and use redirectors
+        das_query = DASQuery(sample)
+        dataset = das_query.dataset
+        
         # Query DAS to get list of files
-        das_query = f'{DASGOCLIENT} --query="file dataset={dataset}" --limit=0 --format=plain'
-        result = subprocess.run(das_query, shell=True, capture_output=True, text=True, check=True)
-        lfns = [line.strip() for line in result.stdout.splitlines() if line.strip()]
+        lfns = das_query.get_file_list()
         if not lfns:
             raise RuntimeError(f"DAS returned no files for dataset {dataset}")
 
@@ -38,7 +26,8 @@ def create_json(sample, args):
                 break
         else:
             raise RuntimeError(f"None of the redirectors worked for {dataset}: {REDIRECTORS}")
-    else:
+    else: # early Run 3 samples - just read from source directory
+        source_sample_path = f'{args.source_path}/{args.year}/{sample}'
         result = subprocess.run(['gfal-ls', source_sample_path], capture_output=True, text=True, check=True)
         files = result.stdout.splitlines()
 
