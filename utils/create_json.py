@@ -10,9 +10,8 @@ REDIRECTORS = [
 
 
 def create_json(sample, args):
-    if (
-        args.year == "Run3_2024"
-    ):  # 2024 samples - query DAS for file list and use redirectors
+    # 2024 samples - query DAS for file list and use redirectors
+    if args.year == "Run3_2024":  
         das_query = DASQuery(sample)
         dataset = das_query.dataset
 
@@ -36,7 +35,9 @@ def create_json(sample, args):
             raise RuntimeError(
                 f"None of the redirectors worked for {dataset}: {REDIRECTORS}"
             )
-    else:  # early Run 3 samples - just read from source directory
+    
+    # early Run 3 samples - just read from source directory
+    else:  
         source_sample_path = f"{args.source_path}/{args.year}/{sample}"
         result = subprocess.run(
             ["gfal-ls", source_sample_path],
