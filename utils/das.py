@@ -4,23 +4,13 @@ import subprocess
 
 DASGOCLIENT = "/cvmfs/cms.cern.ch/common/dasgoclient"
 
-with open("utils/sample_dir_2024.json", "r") as f:
-    sample_dir_2024 = json.load(f)
-
-
 class DASQuery:
     def __init__(self, year, sample):
-        if year != "Run3_2024":
-            raise ValueError(
-                f"Unsupported year: {year}. Only 'Run3_2024' is supported."
-            )
 
-        if sample.startswith(("Tau", "EGamma", "Muon", "MuonEG")):
-            era, primary, tag = sample_dir_2024[sample]
-            self.dataset = f"/{primary}/{era}-{tag}/NANOAOD"
-        else:
-            era, process, tag = sample_dir_2024[sample]
-            self.dataset = f"/{process}/{era}-{tag}/NANOAODSIM"
+        with open(f"utils/sample_dirs/{year}.json", "r") as f:
+            self.sample_dir = json.load(f)
+
+        self.dataset = self.sample_dir[sample]
 
     def get_file_list(self):
         """
