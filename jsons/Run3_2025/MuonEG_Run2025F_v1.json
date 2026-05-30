@@ -1,0 +1,2164 @@
+{
+    "files": [
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/396/726/00000/a2a537d1-e902-4ee5-acba-edb20f568293.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_0.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/396/725/00000/7a18f96a-41cc-40a8-b31e-4518204e529f.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_1.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/396/727/00000/c4f7c7c3-dce3-448b-9440-ac435f98fca9.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_2.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/396/757/00000/3c5a86ab-2c80-4077-ab83-387224474f06.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_3.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/396/758/00000/198a5329-2ce8-4c06-8661-d105a54eb4f6.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_4.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/396/759/00000/d3ab9e10-561b-4942-8009-c3d593957423.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_5.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/396/755/00000/d74cda97-194c-4d29-a07a-fc7001e2da15.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_6.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/396/733/00000/c39fd74b-ebf3-4578-8199-ff892298f468.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_7.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/396/735/00000/9aad12e1-1ec0-408d-854b-259bc0f8453e.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_8.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/396/752/00000/13ea4b1c-c9bb-48e1-b73e-b546420ce746.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_9.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/396/754/00000/c8e45494-2f4e-410a-b26a-0f2946c6e4bd.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_10.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/396/818/00000/094de818-ac6b-4f7e-a57f-b4faf734b006.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_11.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/396/761/00000/d07d007e-29d4-49d6-91fe-64bd4bb67c15.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_12.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/396/760/00000/9fa1bb42-9d60-4205-a17b-9a8f760005ed.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_13.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/396/773/00000/456aea47-cf12-4573-9fe8-6753050519b8.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_14.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/396/762/00000/a36d0924-bf6a-4e0c-af7b-8846c7b47bfc.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_15.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/396/763/00000/792d5ded-2e1a-42b4-8f9b-fe882392ee4b.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_16.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/396/844/00000/c8c836f3-f95c-460e-b792-b73fe99b6a72.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_17.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/396/864/00000/d651b240-d7d3-4e56-bb3f-f91329489eca.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_18.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/396/845/00000/32cd16cc-2af7-453e-bd62-ac0545b70d63.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_19.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/396/845/00000/4a115c3e-b706-4ac9-81be-39e788776921.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_20.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/396/848/00000/cb4f3fad-9c22-412c-88a9-e77fda85b45c.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_21.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/396/826/00000/d3804d74-049c-461c-b20a-c50426d48eac.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_22.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/396/844/00000/702329b6-2c2d-4e01-ae0b-7fe8513bc04d.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_23.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/396/843/00000/1563e0b2-c423-4b46-991d-15f3044781c9.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_24.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/396/843/00000/752991be-887d-4ef2-8305-33568d4f4751.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_25.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/396/805/00000/791cf8a0-4589-425b-bb32-e4a66857ac16.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_26.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/396/805/00000/f3158fa5-38bd-40ed-b251-4d7434ff259a.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_27.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/396/805/00000/5c60737d-892b-4324-ac5d-9b7a5d5447d9.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_28.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/396/805/00000/a3485ce9-10bb-4fc7-afd6-02dd683c87e8.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_29.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/396/805/00000/af781206-dd1a-4416-aab5-320dca12f894.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_30.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/396/805/00000/29015c3c-7b27-4371-a0fd-426ad79c3961.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_31.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/396/819/00000/b2f71db8-fa52-4b68-9946-278ba55a5c64.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_32.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/396/805/00000/d1ffc1e2-e960-43be-b6e8-53b94bd9bc90.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_33.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/396/819/00000/965e9503-fea8-468b-b2cb-0ad483c7e81a.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_34.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/396/847/00000/73539f73-a423-40c9-832d-94d14363f99a.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_35.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/396/845/00000/31d48ef5-5cbf-455c-a832-01899523b176.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_36.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/396/847/00000/fafbb7d5-fe34-490b-9e6c-c7fe3fb031b0.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_37.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/396/870/00000/d7598e1a-7c4b-441a-a927-c7a950e656de.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_38.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/396/842/00000/fc1c5eb8-9934-474c-82f0-a714c33c025f.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_39.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/396/870/00000/10cf0297-9f48-420e-9551-babb004a432c.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_40.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/396/870/00000/8964ef08-b544-4702-b292-947faedae630.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_41.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/396/870/00000/ce475432-f691-4f4c-980a-0a0d35a5fd55.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_42.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/396/870/00000/0850c019-8d76-4cb0-b900-43c94417b83d.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_43.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/396/871/00000/707bae55-02fe-41ea-abbe-2bd65ae9f40b.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_44.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/396/849/00000/09729d54-2d8b-4ffa-af6f-2f2c7899f6ef.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_45.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/396/849/00000/07af01b3-378b-4bac-8312-f52b43147b5a.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_46.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/396/891/00000/14eadbfe-98d0-49c3-a11f-28c76cb898aa.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_47.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/396/871/00000/581c0672-bfec-4beb-a687-3bfa84826603.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_48.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/396/871/00000/a77abb29-1d09-41e7-befa-b9a4f8ab5ba7.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_49.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/396/872/00000/a8a19579-29a6-46b4-a73f-5455e8d0b523.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_50.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/396/850/00000/d7df6e73-f091-4a63-890e-552d4253b9f1.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_51.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/396/891/00000/826e5b21-30f5-4b64-a0ca-60bf1be9569a.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_52.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/396/891/00000/8e2e6ab8-f166-4750-b355-3e287ad8ff08.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_53.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/396/871/00000/4ff671a9-cd67-49c4-883a-85b3a45f25a1.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_54.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/396/892/00000/8d8f0168-4425-4fcf-b12b-3a7f69df0410.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_55.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/396/892/00000/2306da66-5ed7-4bdc-99b9-a299b310cca3.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_56.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/396/892/00000/da9c78c3-768f-4429-82ce-f8a2cf63a9cd.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_57.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/396/892/00000/59b35fd6-5fab-4962-bc0a-83f58ab9716e.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_58.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/396/892/00000/3e9e4b48-66db-45cf-9faa-ebc0f7faec28.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_59.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/396/893/00000/c2009069-303e-4cc3-a744-3962e94ee697.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_60.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/396/892/00000/9d45ba56-0ae3-4972-b1ac-e2057f88b429.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_61.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/396/952/00000/7ed8512e-4509-4a24-976c-9158cf2ef01b.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_62.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/396/952/00000/618200d9-cb1e-4bda-a7fc-2065034d855b.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_63.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/396/963/00000/38361fe7-2116-4211-9d45-3d2010df4748.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_64.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/396/963/00000/ab606902-83ab-44fe-a89a-cd86b5fbdd19.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_65.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/396/960/00000/b6b73386-fb99-4ce4-8d21-574f462fcb1b.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_66.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/396/962/00000/b74f4268-c58b-458f-a1e2-404710967085.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_67.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/396/963/00000/d343fa10-7162-48b7-9954-9d014566be43.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_68.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/396/963/00000/b46bd9d3-757d-4400-99ad-dc305b7884a9.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_69.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/396/961/00000/d574e900-d65d-4b50-9268-4e710f49f5e1.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_70.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/396/965/00000/e7c831e3-4ca3-40d9-a339-61fcc2098a4a.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_71.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/396/988/00000/76664dc6-92a3-473f-be63-bcfe998544f4.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_72.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/396/964/00000/38ec4b44-b2c6-479e-b9d4-ed2ef1e922b8.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_73.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/396/964/00000/9bafcb97-b329-4b48-84c0-9d337a202d13.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_74.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/396/964/00000/9e5728e6-f8d6-4eb4-9a5c-2d00a3537388.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_75.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/396/988/00000/68f2b33b-55e2-4aa2-b833-523ad8748124.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_76.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/396/988/00000/765a4060-cd24-4490-912f-401f4d23fc6a.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_77.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/396/988/00000/9cc5079e-b806-4804-8473-b309331baa09.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_78.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/396/988/00000/c621b023-5158-4c1a-8bfe-876c30a88622.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_79.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/396/988/00000/7b2027f8-b831-473a-a91c-c445b2297d3f.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_80.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/396/999/00000/196b2807-02c6-41b8-9105-543291156669.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_81.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/033/00000/f56e2c65-3473-463b-b045-631b9802a6b5.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_82.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/021/00000/765dab97-577f-482f-87a6-fbb294f74e2f.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_83.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/021/00000/7dbf5784-41b1-4cf3-86f5-594bd5b0ab91.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_84.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/031/00000/18c1fb4d-4bb5-45a8-a7d2-ceced6eb319f.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_85.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/396/999/00000/beffd260-9bc0-4649-afcd-e8856b8114d0.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_86.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/396/988/00000/520cb154-8352-4300-b4ac-28b641d20753.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_87.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/033/00000/17a5fe60-e3cb-4f5f-8b42-7ec7d712ecad.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_88.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/033/00000/05907073-5ddf-4af7-8941-a60238af9751.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_89.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/033/00000/33941029-fa25-4fac-9e27-3956b56765d8.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_90.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/052/00000/9c1cf38d-d266-44de-bcfc-47e12f63b532.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_91.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/033/00000/def0dcae-9585-4826-8ce4-e829e127c83f.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_92.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/033/00000/53507b8d-10fd-467f-b965-7b823c69775e.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_93.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/033/00000/961a2d23-e4ee-4424-9b67-6f7d5e8668fd.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_94.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/033/00000/ac5207e3-305b-4561-ad0b-c3be1a9ecca0.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_95.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/032/00000/6e524aee-b169-4ef6-aab8-cf4df765130b.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_96.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/049/00000/0ac22032-fb69-4b33-aa96-3fce579daaf7.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_97.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/050/00000/099eebce-bdf4-4977-b66a-4957a196530e.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_98.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/050/00000/fed5e8ef-d361-401c-a9d6-c0d8133fbc01.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_99.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/098/00000/592b4933-c358-4b5e-b2d4-c177f06a46b5.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_100.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/050/00000/593aa50a-0656-4405-8020-2adc6f9a5250.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_101.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/051/00000/d41836bc-2646-4f60-8763-b528b5a7b583.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_102.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/097/00000/7e40e9d2-e4c6-4a89-8990-fa386dcdef2b.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_103.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/098/00000/661450c3-a6ce-494e-a0df-2fb45be5a42f.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_104.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/097/00000/8206f8ce-ad93-4bed-bc27-bfb7a8249ca8.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_105.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/188/00000/1bad0124-8cb5-46c7-a357-4271554590bc.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_106.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/187/00000/b0f896b5-06c7-4ed2-b836-db129dcb564c.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_107.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/098/00000/512df455-9afa-4b2c-81ad-40235cffadd2.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_108.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/189/00000/0d523181-a2b9-4bf8-bd0e-1a136983bb26.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_109.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/106/00000/a6c38f26-3484-4d23-a7bb-a797fc5f5996.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_110.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/106/00000/82ee5aa3-4378-490e-86b5-517dcac24142.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_111.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/186/00000/f51c7c69-76cc-4c5c-91b3-d9e7fe57e80a.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_112.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/192/00000/ba3b7775-a04c-469d-8790-93c470a0e3cc.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_113.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/186/00000/d05a1801-58df-4a21-af28-cce11b9bb3d8.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_114.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/209/00000/f5450de2-9cd4-4f8b-89ad-3cf5fc90c3ff.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_115.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/209/00000/2eee78e9-6311-40b2-86a9-f7537095a251.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_116.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/209/00000/b92bc80a-69cc-4602-89df-dc00c692ef0c.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_117.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/209/00000/daae03b4-6626-4ea1-899f-65e91ad7a921.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_118.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/192/00000/35c668e3-67ae-4700-876a-0d1b971bd9bc.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_119.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/207/00000/bb73d4fb-fb18-4dc4-863b-4dc326d97db6.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_120.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/208/00000/9a8cc040-70d9-4a59-918e-8d6659c83b46.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_121.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/209/00000/142f4c73-7e9f-4480-9039-91dd1b0da76a.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_122.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/191/00000/3c87fede-e0f8-4d86-8dce-7b42d2cb3551.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_123.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/207/00000/ad3c3c5b-164c-48e3-bb92-7c0d035be83f.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_124.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/190/00000/3a8cf935-a5dd-4e19-9f9c-bfb8dfa48ded.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_125.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/186/00000/52ff8851-a212-411e-bdaf-f5f52135b9bb.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_126.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/226/00000/457c244a-2a96-46cc-8df3-204a2c2af32f.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_127.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/227/00000/2f377fc0-7b56-400e-9842-16ec1f99d03b.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_128.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/226/00000/670355a9-f668-44b9-936c-f7693224a0cb.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_129.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/226/00000/403fab5d-0640-460b-8212-1813e19f5b9c.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_130.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/226/00000/6286d73c-618a-4009-9677-1722cb7eecc9.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_131.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/226/00000/f0b42958-99ec-4715-9350-1f9442e20a52.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_132.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/226/00000/c6b8fe93-98e6-421a-9125-6c125838c39d.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_133.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/226/00000/8bdff8a5-c2a8-4863-a4c7-6a4b45c175cb.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_134.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/226/00000/979d879f-d472-4140-85d3-56fe8163332a.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_135.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/253/00000/3153cfd9-e2e3-4554-9aa5-a4469986f5c1.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_136.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/258/00000/142eaaf7-cac7-4e3e-a490-89b44d872b96.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_137.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/262/00000/1339db61-a110-427a-93ac-140b0eb8c566.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_138.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/249/00000/7cf4ad26-7f72-4b1d-a562-30c44540174a.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_139.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/255/00000/168aac7e-e7f6-4f5d-aa88-658e80fff58d.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_140.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/258/00000/b6d5a918-7ca7-4d84-b3ed-96c80a9138e8.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_141.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/261/00000/71646e5d-a5b9-4725-90d9-ba58960222a7.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_142.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/253/00000/fbe42f2c-f22b-45b6-8cbd-ccb55d012430.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_143.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/253/00000/489ef3c8-dd59-460d-a57f-065d07758cd9.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_144.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/253/00000/5c83518c-a7f1-45db-aeda-6f2dcaf440da.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_145.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/253/00000/e7c19738-8646-4786-9814-dc9ef436deea.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_146.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/254/00000/229d4c87-2f1f-43a5-9c48-8e5b2e5c414e.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_147.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/246/00000/09fe3f78-7f0f-4b31-b0b2-c4745fe517f0.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_148.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/243/00000/4738bb58-f8f3-4b49-98cc-63e61985c433.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_149.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/246/00000/6a5035a4-3209-49ca-ab41-68c6e1c900ee.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_150.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/259/00000/e825350c-5d69-42f9-b1e9-c5117e938d0e.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_151.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/260/00000/495bc7ec-941e-476d-9dfb-89df5645b35c.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_152.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/243/00000/3ebd76b0-e368-4c5a-9139-f6690ba4f106.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_153.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/296/00000/6888e8aa-edab-4244-864f-60f0c44acad7.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_154.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/296/00000/dbb8d931-abf7-4bb8-90b8-6fe8b5a464f8.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_155.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/292/00000/cb5ceb7e-3a7b-41bf-aa5b-b6e79fb90253.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_156.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/292/00000/068943b1-5c01-400b-bd86-dbc385651dac.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_157.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/293/00000/5a6a8677-788d-4335-8a01-c8aebfef7512.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_158.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/292/00000/183a8607-8e78-4174-b9e7-4024d3ec9752.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_159.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/292/00000/e226cf53-aa8d-4664-a9ca-44045debfe40.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_160.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/293/00000/dc5ec494-2872-43bf-b045-c67e04600003.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_161.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/292/00000/11a94a8f-7d2e-4677-87b8-caf806612515.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_162.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/292/00000/5ba86712-ab27-4178-a922-bae6115472b5.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_163.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/293/00000/2696148b-2044-420b-8b72-6e42c018c0b6.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_164.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/332/00000/77e65131-07ab-4c67-a294-09f03dbe60eb.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_165.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/294/00000/8a45c778-5d61-4c3b-ba65-9c63b443fae6.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_166.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/286/00000/4d8256bc-9c77-438d-a5ec-86a0eef13d64.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_167.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/332/00000/32294efc-24da-41ed-96bc-3443cdb7bf0e.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_168.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/332/00000/c6932161-d0b8-4144-8108-05dfb98493f4.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_169.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/332/00000/44537b56-7b39-4549-baec-127b74c4809b.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_170.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/346/00000/e196288a-43ee-415c-9239-e4a3894a6b6a.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_171.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/332/00000/83f7209c-73cd-4431-b4be-ad917976fcbc.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_172.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/332/00000/47301f86-cf65-4d58-9a1a-78b804ebe7a0.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_173.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/368/00000/3f8b4544-24c0-4665-9199-7a4ae5898e7a.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_174.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/332/00000/ed64ba18-3ce4-454e-bd6c-4a129f7dc0e9.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_175.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/347/00000/8725282e-8902-426f-aa3b-9e211e074c48.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_176.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/348/00000/55317376-43b4-4ef1-837f-c413eef437df.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_177.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/377/00000/4ff36d69-05fa-4e51-bb84-220aa123a7ad.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_178.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/377/00000/b7fa08a9-3484-4728-be8f-d2ea0b3ebe8b.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_179.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/373/00000/e9a1f0b9-a99a-4d71-9d19-0731dba05e76.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_180.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/377/00000/98c54955-7c95-4825-9c6c-b46a3b00deb0.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_181.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/377/00000/8d549b9e-6fef-470e-be75-19025afca111.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_182.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/377/00000/b59ac149-6a69-40fd-8913-957045e50d08.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_183.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/377/00000/644a6159-695b-410c-9a23-625cc4c44fce.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_184.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/370/00000/2a47acdf-95c2-4fe3-9956-6e4336180556.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_185.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/371/00000/186d18a2-0e96-4d77-a497-5a37bdf01dbd.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_186.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/451/00000/d5831588-71a4-4b5d-b273-a59f4cd6baeb.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_187.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/383/00000/431e3e42-7116-458c-91d7-2fb633ea0c97.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_188.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/412/00000/3f561125-76a9-48ab-8281-6451a38d3bea.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_189.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/414/00000/2518ebbc-10b9-4c86-b6c9-2b4ebfad75ff.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_190.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/414/00000/40650cc5-fa4f-4a9e-86d5-c1044fb6fdf4.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_191.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/377/00000/c62f8dd3-4407-427c-a046-ebe946ba1f00.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_192.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/384/00000/61c31804-721f-4891-a10a-389a32a96ee7.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_193.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/414/00000/66033291-8b55-4e9a-bc77-98aaa5910e65.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_194.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/414/00000/52b0b09d-f710-4d20-ab53-33905a9e7dba.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_195.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/414/00000/b4f31781-dce7-435d-9125-aab1c7fc2bab.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_196.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/414/00000/d5c22a7f-f34b-41c3-84f6-9f8cfaa1f135.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_197.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/414/00000/68b25ece-d4bd-4e13-807e-d1c016af16b3.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_198.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/384/00000/d89aa796-421d-4a17-9acd-cf88d96b0c6c.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_199.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/411/00000/07e6ae46-4754-479b-8284-b05a693f795f.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_200.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/383/00000/efa754cf-0daa-4380-b7d2-7ee3eaf72be9.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_201.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/383/00000/c051bdb7-bf69-4baa-a26b-a658b19af003.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_202.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/383/00000/af21aa53-d4de-40d5-a3b5-aef4e52023c2.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_203.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/384/00000/1f8959a7-884d-421c-8919-9524e14d3fa8.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_204.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/383/00000/22a3b1a4-b717-41bc-8b7a-fb56c14e2b73.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_205.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/413/00000/9e9cab8e-0375-44e1-849d-3069cda38d70.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_206.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/414/00000/da4be36a-1f9f-4a37-9824-e3e6e87fb245.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_207.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/452/00000/30d535e2-ced1-413b-a2d1-a8aac6993de4.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_208.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/452/00000/302a104b-ea52-49ad-ae9f-afa62c19134e.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_209.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/456/00000/a7cdc2cd-0f37-4e33-b7a2-21bd61248f65.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_210.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/456/00000/a4d60fcf-6111-4e7f-9b9f-47457973bf6a.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_211.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/453/00000/a4e11fa6-a952-480a-a13f-80f54f6c282d.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_212.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/448/00000/551c473d-9f03-4a8a-94ab-1c0e10c4eeea.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_213.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/447/00000/7b59ed9b-9ac6-413a-95dd-bff4f8b4bf3d.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_214.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/449/00000/9805ef96-47d7-41ed-9eb9-bac71ee93138.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_215.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/446/00000/32538d71-ba8a-41b8-b417-fa23321275e4.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_216.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/450/00000/33eaa618-6a43-4d22-b305-332355c0245c.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_217.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/449/00000/64a30870-8f6b-47a2-8afe-fada6a3c70db.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_218.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/432/00000/a703b6b2-0197-477d-bccd-84bf47108ef1.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_219.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/445/00000/8f03edc3-b8fd-46e1-ac80-99f9004a81d2.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_220.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/432/00000/ba195195-b3b7-4b8e-9590-527bca6020a2.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_221.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/432/00000/4962501f-231a-4b0f-ad6c-3df3ebd473cc.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_222.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/456/00000/138daec3-b243-476c-bac8-230e748e6801.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_223.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/457/00000/db0ce839-392b-4f2b-b47c-29c4f74a70f2.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_224.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/489/00000/6e264a84-b0f2-4f67-a232-e6580536c413.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_225.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/491/00000/31608c4b-a918-40bd-aaa2-49daa1feae72.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_226.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/491/00000/1c8080ab-ec9d-4444-996f-b008b57d5519.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_227.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/492/00000/a2526445-c87a-41d0-8481-69ff6d24af59.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_228.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/489/00000/c7480193-9a9e-4306-a68e-77d585281884.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_229.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/490/00000/3f6c5bc9-eb1d-4ec1-a321-802c0906bc10.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_230.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/491/00000/280b2428-cb18-477c-aff4-6af01e830ccc.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_231.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/492/00000/d18a20b3-1f06-40aa-9abb-cc3a1f42e4df.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_232.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/492/00000/96019c97-ee35-46d2-a70e-5f2d44f7e6ae.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_233.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/492/00000/e840b1ff-4349-4e64-b1c8-5642aedd8d91.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_234.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/528/00000/2bdc3818-a455-44d4-9eb4-e4e4406a170b.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_235.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/492/00000/8fa7b9eb-b137-46ca-8820-d19f4ec1ae05.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_236.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/502/00000/93eb5d2a-8584-400b-844e-c1920c9f9b54.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_237.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/502/00000/44325e1b-5dc9-46b2-86d3-b2e33f94fb2a.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_238.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/527/00000/1e4c19db-f0b6-4363-b894-28c1e401e577.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_239.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/529/00000/a0dbe53b-e8b4-49d2-bd75-523b7480da4c.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_240.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/529/00000/5599efaf-6f51-47a5-87e0-5040053948c9.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_241.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/502/00000/2a530f3d-f275-4941-b647-60316b19202d.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_242.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/503/00000/b6ab28ce-5b69-4414-af75-22a7dcbb3b84.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_243.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/529/00000/7c4a4697-a1eb-4c18-8c45-178ed46d12b4.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_244.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/501/00000/46cd2f2a-be9c-4fc8-a99f-4948429a0fde.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_245.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/530/00000/f46b4bfd-d9e7-4c50-a853-ac92be20b7df.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_246.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/530/00000/20215ce4-25d1-4a1f-a39b-23b1c744b10e.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_247.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/530/00000/49cb7c42-c0e4-4fe4-b02b-56f04c788a10.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_248.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/531/00000/0df4bc68-18e1-4abb-80c8-fad1a9033c1e.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_249.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/529/00000/e275e2e0-53b2-440a-a2c5-91b4cbf82f95.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_250.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/532/00000/37bd0866-580d-4581-bdc3-fb4cf7261e09.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_251.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/548/00000/26f28f03-51d8-4d53-a277-0fed23246571.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_252.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/569/00000/3b4afa6a-b9a8-40de-995b-a1ebb459e618.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_253.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/568/00000/c91bd1a3-282f-4ff4-b085-1a49495dee94.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_254.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/568/00000/e036cdb3-4722-4017-a4cb-6964680c1037.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_255.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/568/00000/080e4120-1410-436a-8ab3-775c0fdbaf8c.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_256.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/568/00000/949fe2b1-6dba-443b-8ece-0d246bd3522a.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_257.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/574/00000/148280f4-b949-4aef-ad4a-7f51c1e858ce.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_258.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/532/00000/9ccd2381-6c82-4cea-9747-41fcbce1f50e.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_259.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/594/00000/2249d816-f294-45a6-ae12-bb2ef4e444fc.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_260.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/596/00000/27a7177a-fe66-4295-adbd-bcdfc48ef748.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_261.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/595/00000/2bd7ff45-97d7-4511-bb89-480bdc70f12a.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_262.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/580/00000/71401bff-db09-4cde-ae79-88dc248c0684.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_263.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/595/00000/7c94e779-c537-4a51-ac15-2738a424ff75.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_264.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/595/00000/7a3a5b2e-9a6d-4603-8174-a356d08bdd9d.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_265.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/596/00000/04697c47-d4f9-4f42-a956-c2170f38999c.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_266.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/595/00000/87db37ea-535b-4a56-afa4-479b9deae5f8.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_267.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/594/00000/104bc3c7-7856-488e-919b-f90100d24254.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_268.root"
+            ]
+        },
+        {
+            "sources": [
+                "root://cmsxrootd.fnal.gov/store/data/Run2025F/MuonEG/NANOAOD/PromptReco-v1/000/397/596/00000/976537e5-8e2f-4c06-9e6f-ebce24858f8a.root"
+            ],
+            "destinations": [
+                "davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor/Run3_2025/MuonEG_Run2025F_v1/nano_269.root"
+            ]
+        }
+    ]
+}

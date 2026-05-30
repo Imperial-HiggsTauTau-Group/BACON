@@ -60,14 +60,14 @@ if __name__ == "__main__":
         "--destination_path",
         required=False,
         help="Path to create directories on dcache",
-        default="davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo",
-    )  # For Higgs samples: davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/irandreo/HiggsSamples/
+        default="davs://gfe02.grid.hep.ph.ic.ac.uk:2880/pnfs/hep.ph.ic.ac.uk/data/cms/store/user/dwentwor",
+    )  
     parser.add_argument(
         "--source_path",
         required=False,
-        help="Path to sample root files",
+        help="Path to sample root files (only needed for early Run 3 samples)",
         default="davs://eoscms.cern.ch/eos/cms/store",
-    )  # For Higgs samples: /eos/cms/store/group/phys_higgs/HLepRare/skim_2025_v1/
+    )  
     parser.add_argument(
         "--get_size",
         action="store_true",

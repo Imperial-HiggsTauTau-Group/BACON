@@ -8,11 +8,12 @@ REDIRECTORS = [
     "root://cms-xrd-global.cern.ch/",
 ]
 
+early_run_3 = ["Run3_2022", "Run3_2022EE", "Run3_2023", "Run3_2023BPix"]
 
 def create_json(sample, args):
     # 2024 samples - query DAS for file list and use redirectors
-    if args.year == "Run3_2024":  
-        das_query = DASQuery(sample)
+    if args.year not in early_run_3:  
+        das_query = DASQuery(args.year, sample)
         dataset = das_query.dataset
 
         # Query DAS to get list of files
@@ -23,12 +24,8 @@ def create_json(sample, args):
         # Try redirectors; accept the first that passes a quick probe on one PFN
         for xr in REDIRECTORS:
             cand = [xr + lfn.lstrip("/") for lfn in lfns]
-            if (
-                subprocess.run(
-                    ["gfal-stat", cand[0]], capture_output=True
-                ).returncode
-                == 0
-            ):
+            stat = subprocess.run(["gfal-stat", cand[0]], capture_output=True)
+            if stat.returncode == 0:
                 files = cand
                 break
         else:
@@ -50,7 +47,7 @@ def create_json(sample, args):
     data = {"files": []}
 
     for file in files:
-        if args.year == "Run3_2024":
+        if args.year not in early_run_3:
             index = files.index(file)
             dest_name = f"nano_{index}.root"
             file_entry = {
@@ -70,3 +67,4 @@ def create_json(sample, args):
 
     with open(f"jsons/{args.year}/{sample}.json", "w") as f:
         json.dump(data, f, indent=4)
+
