@@ -2,6 +2,7 @@ import subprocess
 import argparse
 import yaml
 from utils.gfal import Submission
+from utils.create_json import early_run_3
 
 
 def submit_jsons(args):
@@ -29,10 +30,10 @@ def submit_jsons(args):
     yaml_dict = {}
     for json_file in jsons:
 
-        if args.year == "Run3_2024":
+        if args.year not in early_run_3:
             print(
                 "\033[94m"
-                + "====== User is running Run3_2024, using gfal-copy instead of fts-rest-transfer-submit... ======"
+                + "====== User is running Run3_2024/25/26, using gfal-copy instead of fts-rest-transfer-submit... ======"
                 + "\033[0m"
             )
             submission = Submission(args.year, json_file)
