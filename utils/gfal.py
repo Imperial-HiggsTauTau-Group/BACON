@@ -81,14 +81,16 @@ class Submission:
                 f"{self.sample_name}_chunk_{i // chunk_size}",
             )
 
-    def file_count_check(self):
+    def file_count_check(self, resubmit=False):
         self.destination_file_list = get_file_list(self.target_dir)
         self.destination_file_count = len(self.destination_file_list)
 
         if self.destination_file_count == self.n_mappings:
+            if resubmit:
+                return []
             return True
         else:
-            self.missing_file_indices = []
+            missing_file_indices = []
             print(
                 "\033[1;91m"
                 + f"Expected {self.n_mappings} files, but "
@@ -101,7 +103,7 @@ class Submission:
                 expected_filename = os.path.basename(expected_file)
                     
                 if expected_filename not in self.destination_file_list:
-                    self.missing_file_indices.append(i)  
+                    missing_file_indices.append(i)  
                     print(
                         "\033[93m"
                         + f"Missing file: {expected_filename}, chunk: {i // 5}"
@@ -111,6 +113,9 @@ class Submission:
                     print(
                         "\033[93m" + f"Source file: {source_file}" + "\033[0m"
                     )
+            
+            if resubmit:
+                return missing_file_indices
             return False
 
     def gfal_stat_file_size(self, i):
@@ -131,31 +136,6 @@ class Submission:
         Returns a dictionary of file sizes for all files in the target directory (in bytes).
         """
         return get_file_sizes(self.target_dir)
-    
-    def resubmit_missing_files(self, chunk_size=5):
-        if not hasattr(self, "missing_file_indices"):
-            print(
-                "\033[91mError: file_count_check() must be called before resubmitting missing files.\033[0m"
-            )
-            return
-
-        os.makedirs(f"condor/{self.year}/{self.sample_name}/resubmit", exist_ok=True)
-        missing_mappings = [self.mappings[i] for i in self.missing_file_indices]
-        print(f"\033[1;94mResubmitting missing files for {self.sample_name}...\033[0m")
-        print(
-            f"\033[94mResubmitting {len(missing_mappings)} missing files in chunks of {chunk_size}...\033[0m"
-        )
-        for i in range(0, len(missing_mappings), chunk_size):
-            chunk = missing_mappings[i : min(i + chunk_size, len(missing_mappings))]
-            prepare_submission(
-                f"condor/{self.year}/{self.sample_name}/resubmit",
-                f"{self.sample_name}_chunk_{i // chunk_size}",
-                chunk,
-            )
-            make_submission(
-                f"condor/{self.year}/{self.sample_name}/resubmit",
-                f"{self.sample_name}_chunk_{i // chunk_size}",
-            )
 
 
 def tests():

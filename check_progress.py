@@ -5,13 +5,20 @@ import argparse
 import subprocess
 from utils.gfal import Submission
 from utils.das import DASQuery
+from utils.condor import prepare_submission, make_submission
 from utils.create_json import early_run_3
 from create_jsons import convert_bytes
 
 
-def file_sizes_mismatch(mappings, source_sizes, destination_sizes):
+def file_sizes_mismatch(
+        mappings,
+        source_sizes,
+        destination_sizes,
+        resubmit=False
+):
     mismatch = False
-    
+    mismatching_file_indices = []
+
     for i in range(len(mappings)):
         source_file_path = mappings[i]["sources"][0]
         destination_file_path = mappings[i]["destinations"][0]
@@ -24,6 +31,7 @@ def file_sizes_mismatch(mappings, source_sizes, destination_sizes):
         if source_size == destination_size:
             continue
         else:
+            mismatching_file_indices.append(i)
             mismatch = True
             print(
                 "\033[1;91m"
@@ -34,10 +42,12 @@ def file_sizes_mismatch(mappings, source_sizes, destination_sizes):
                 f"Source file: {source_file},\n size: {source_size} bytes"
             )
             print(
-                f"Destination file: {destination_file},\n size: {destination_size} bytes\n"
+                f"Destination file: {destination_file},\n size: {destination_size} bytes"
             )
         
-        return mismatch
+    if resubmit:
+        return mismatching_file_indices
+    return mismatch
 
 
 def check_progress(args):
@@ -118,7 +128,7 @@ def check_progress(args):
     print(table)
 
 
-def resubmit(args):
+def resubmit(args, chunk_size=5):
     if args.year in early_run_3:
         print(
             "\033[1;91mResubmission is not implemented for Early Run 3 years yet!\033[0m"
@@ -130,8 +140,54 @@ def resubmit(args):
     
     for json_filename in yaml_dict.keys():
         sub = Submission(args.year, json_filename)
-        if not sub.file_count_check():
-            sub.resubmit_missing_files()
+        das_query = DASQuery(args.year, sub.sample_name)
+        mappings = sub.mappings.copy()
+        print("")
+        print("—" * 50)
+        print(f"Checking {sub.sample_name} for resubmission...")
+        print("—" * 50)
+        # get file sizes from source with DAS
+        source_sizes = das_query.get_file_sizes()
+        # get file sizes from target with gfal
+        destination_sizes = sub.destination_file_sizes()
+        missing_file_indices = sub.file_count_check(resubmit=True)
+        for i in missing_file_indices:
+            # avoid KeyError in file_sizes_mismatch function when trying to
+            # access sizes of missing files
+            mappings.remove(sub.mappings[i]) 
+        mismatching_file_indices = file_sizes_mismatch(
+            mappings,
+            source_sizes,
+            destination_sizes,
+            resubmit=True
+        )
+
+        failed_file_indices = list(set(missing_file_indices + mismatching_file_indices))
+        if not failed_file_indices:
+            print(
+                f"No missing or mismatching files found."
+            )
+            continue
+
+        os.makedirs(f"condor/{args.year}/{sub.sample_name}/resubmit", exist_ok=True)
+        failed_mappings = [sub.mappings[i] for i in failed_file_indices]
+        n_failed = len(failed_mappings)
+
+        print(
+            f"\033[94mResubmitting {n_failed} failed copies in chunks of {chunk_size}...\033[0m"
+        )
+
+        for i in range(0, n_failed, chunk_size):
+            chunk = failed_mappings[i : min(i + chunk_size, n_failed)]
+            prepare_submission(
+                f"condor/{args.year}/{sub.sample_name}/resubmit",
+                f"{sub.sample_name}_chunk_{i // chunk_size}",
+                chunk,
+            )
+            make_submission(
+                f"condor/{args.year}/{sub.sample_name}/resubmit",
+                f"{sub.sample_name}_chunk_{i // chunk_size}",
+            )
 
 
 if __name__ == "__main__":
@@ -144,3 +200,4 @@ if __name__ == "__main__":
         resubmit(args)
     else:
         check_progress(args)
+

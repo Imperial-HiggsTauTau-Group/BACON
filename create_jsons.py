@@ -115,3 +115,4 @@ if __name__ == "__main__":
         print(
             f"Total size across all jsons: {total_size} bytes ({convert_bytes(total_size)})"
         )
+

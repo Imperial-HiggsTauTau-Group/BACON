@@ -1,4 +1,3 @@
-import os
 import json
 import subprocess
 
@@ -13,7 +12,7 @@ def prepare_submission(directory, filename, mappings_slice):
                 and len(mapping["destinations"]) == 1
             ):
                 f.write(
-                    f"gfal-copy -v -p {mapping['sources'][0]}"
+                    f"gfal-copy -v -p -f {mapping['sources'][0]}"
                     + f" {mapping['destinations'][0]}\n\n"
                 )
             else:
@@ -59,3 +58,4 @@ def tests():
 
 if __name__ == "__main__":
     tests()
+
