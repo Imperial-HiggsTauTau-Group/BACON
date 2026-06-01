@@ -5,6 +5,7 @@ import argparse
 import subprocess
 from utils.gfal import Submission
 from utils.das import DASQuery
+from utils.create_json import early_run_3
 from create_jsons import convert_bytes
 
 
@@ -20,13 +21,12 @@ def check_progress(args):
 
     table = prettytable.PrettyTable()
 
-    if args.year == "Run3_2024":
+    if args.year not in early_run_3:
         table.field_names = ["Sample", "Files", "Transferred"]
-        for json_filename, value in yaml_dict.items():
-            sample_name = json_filename.replace(".json", "")
-            print(B + f"Checking {sample_name}..." + N)
+        for json_filename in yaml_dict.keys():
+            print(B + f"Checking {json_filename}..." + N)
             sub = Submission(args.year, json_filename)
-            das_query = DASQuery(args.year, sample_name)
+            das_query = DASQuery(args.year, sub.sample_name)
 
             # check number of files in target directory
             if sub.file_count_check():
@@ -35,9 +35,7 @@ def check_progress(args):
                 total_source_size = convert_bytes(sum(source_sizes.values()))
                 # get file sizes from target with gfal
                 destination_sizes = sub.destination_file_sizes()
-                total_destination_size = convert_bytes(
-                    sum(destination_sizes.values())
-                )
+                total_destination_size = convert_bytes(sum(destination_sizes.values()))
                 mismatch = False
 
                 # check if file sizes match for each file
@@ -76,14 +74,14 @@ def check_progress(args):
 
             table.add_row(
                 [
-                    status + sample_name + N,
+                    status + sub.sample_name + N,
                     f"{sub.destination_file_count}/{sub.n_mappings}",
                     f"{total_destination_size} / {total_source_size}",
                 ],
                 divider=True,
             )
 
-    # for non-Run3_2024 years, just check FTS job status
+    # for Early Run 3 years, just check FTS job status
     else:
         table.field_names = ["File", "Status"]
         for key, value in yaml_dict.items():
@@ -109,9 +107,29 @@ def check_progress(args):
     print(table)
 
 
+def resubmit(args):
+    if args.year in early_run_3:
+        print(
+            "\033[1;91mResubmission is not implemented for Early Run 3 years yet!\033[0m"
+        )
+        return
+    
+    with open(f"submissions/{args.year}.yaml", "r") as f:
+        yaml_dict = yaml.load(f, Loader=yaml.FullLoader)
+    
+    for json_filename in yaml_dict.keys():
+        sub = Submission(args.year, json_filename)
+        if not sub.file_count_check():
+            sub.resubmit_missing_files()
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Create JSONs from YAMLs")
     parser.add_argument("--year", required=True, help="Year to process")
+    parser.add_argument("--resubmit", action="store_true", help="Whether to resubmit missing files")
     args = parser.parse_args()
 
-    check_progress(args)
+    if args.resubmit:
+        resubmit(args)
+    else:
+        check_progress(args)

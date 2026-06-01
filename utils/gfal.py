@@ -52,13 +52,13 @@ class Submission:
 
         self.year = year
         self.json_filename = json_filename
+        self.sample_name = self.json_filename.replace(".json", "")
         self.source_dir = os.path.dirname(first_source)
         self.target_dir = os.path.dirname(first_destination)
         self.n_mappings = len(self.mappings)
 
     def submit_to_condor(self, chunk_size=5):
-        sample_name = self.json_filename.replace(".json", "")
-        os.makedirs(f"condor/{self.year}/{sample_name}", exist_ok=True)
+        os.makedirs(f"condor/{self.year}/{self.sample_name}", exist_ok=True)
         json_filepath = f"jsons/{self.year}/{self.json_filename}"
         print(
             f"\033[94mSubmitting {self.json_filename} using gfal-copy...\033[0m"
@@ -72,13 +72,13 @@ class Submission:
         for i in range(0, self.n_mappings, chunk_size):
             chunk = self.mappings[i : min(i + chunk_size, self.n_mappings)]
             prepare_submission(
-                f"condor/{self.year}/{sample_name}",
-                f"{sample_name}_chunk_{i // chunk_size}",
+                f"condor/{self.year}/{self.sample_name}",
+                f"{self.sample_name}_chunk_{i // chunk_size}",
                 chunk,
             )
             make_submission(
-                f"condor/{self.year}/{sample_name}",
-                f"{sample_name}_chunk_{i // chunk_size}",
+                f"condor/{self.year}/{self.sample_name}",
+                f"{self.sample_name}_chunk_{i // chunk_size}",
             )
 
     def file_count_check(self):
@@ -88,20 +88,23 @@ class Submission:
         if self.destination_file_count == self.n_mappings:
             return True
         else:
+            self.missing_file_indices = []
             print(
                 "\033[1;91m"
                 + f"Expected {self.n_mappings} files, but "
                 + f"found {self.destination_file_count} files in {self.target_dir}"
                 + "\033[0m"
             )
+            
             for i in range(len(self.mappings)):
-                expected_file = os.path.basename(
-                    self.mappings[i]["destinations"][0]
-                )
-                if expected_file not in self.destination_file_list:
+                expected_file = self.mappings[i]["destinations"][0]
+                expected_filename = os.path.basename(expected_file)
+                    
+                if expected_filename not in self.destination_file_list:
+                    self.missing_file_indices.append(i)  
                     print(
                         "\033[93m"
-                        + f"Missing file: {expected_file}"
+                        + f"Missing file: {expected_filename}, chunk: {i // 5}"
                         + "\033[0m"
                     )
                     source_file = self.mappings[i]["sources"][0]
@@ -128,6 +131,31 @@ class Submission:
         Returns a dictionary of file sizes for all files in the target directory (in bytes).
         """
         return get_file_sizes(self.target_dir)
+    
+    def resubmit_missing_files(self, chunk_size=5):
+        if not hasattr(self, "missing_file_indices"):
+            print(
+                "\033[91mError: file_count_check() must be called before resubmitting missing files.\033[0m"
+            )
+            return
+
+        os.makedirs(f"condor/{self.year}/{self.sample_name}/resubmit", exist_ok=True)
+        missing_mappings = [self.mappings[i] for i in self.missing_file_indices]
+        print(f"\033[1;94mResubmitting missing files for {self.sample_name}...\033[0m")
+        print(
+            f"\033[94mResubmitting {len(missing_mappings)} missing files in chunks of {chunk_size}...\033[0m"
+        )
+        for i in range(0, len(missing_mappings), chunk_size):
+            chunk = missing_mappings[i : min(i + chunk_size, len(missing_mappings))]
+            prepare_submission(
+                f"condor/{self.year}/{self.sample_name}/resubmit",
+                f"{self.sample_name}_chunk_{i // chunk_size}",
+                chunk,
+            )
+            make_submission(
+                f"condor/{self.year}/{self.sample_name}/resubmit",
+                f"{self.sample_name}_chunk_{i // chunk_size}",
+            )
 
 
 def tests():
