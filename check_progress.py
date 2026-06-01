@@ -9,6 +9,37 @@ from utils.create_json import early_run_3
 from create_jsons import convert_bytes
 
 
+def file_sizes_mismatch(mappings, source_sizes, destination_sizes):
+    mismatch = False
+    
+    for i in range(len(mappings)):
+        source_file_path = mappings[i]["sources"][0]
+        destination_file_path = mappings[i]["destinations"][0]
+        source_file = os.path.basename(source_file_path)
+        destination_file = os.path.basename(destination_file_path)
+        source_size = source_sizes[source_file]
+        destination_size = destination_sizes[destination_file]
+
+        # check if file sizes match
+        if source_size == destination_size:
+            continue
+        else:
+            mismatch = True
+            print(
+                "\033[1;91m"
+                + f"File size mismatch for {destination_file}!"
+                + "\033[0m"
+            )
+            print(
+                f"Source file: {source_file},\n size: {source_size} bytes"
+            )
+            print(
+                f"Destination file: {destination_file},\n size: {destination_size} bytes\n"
+            )
+        
+        return mismatch
+
+
 def check_progress(args):
     with open(f"submissions/{args.year}.yaml", "r") as f:
         yaml_dict = yaml.load(f, Loader=yaml.FullLoader)
@@ -27,48 +58,28 @@ def check_progress(args):
             print(B + f"Checking {json_filename}..." + N)
             sub = Submission(args.year, json_filename)
             das_query = DASQuery(args.year, sub.sample_name)
+            # get file sizes from source with DAS
+            source_sizes = das_query.get_file_sizes()
+            total_source_size = convert_bytes(sum(source_sizes.values()))
+            # get file sizes from target with gfal
+            destination_sizes = sub.destination_file_sizes()
+            total_destination_size = convert_bytes(sum(destination_sizes.values()))
 
-            # check number of files in target directory
+            # check number of files in target directory - if it matches the
+            # number of files in source directory, then check file sizes,
+            # otherwise report missing files
             if sub.file_count_check():
-                # get file sizes from source with DAS
-                source_sizes = das_query.get_file_sizes()
-                total_source_size = convert_bytes(sum(source_sizes.values()))
-                # get file sizes from target with gfal
-                destination_sizes = sub.destination_file_sizes()
-                total_destination_size = convert_bytes(sum(destination_sizes.values()))
-                mismatch = False
-
-                # check if file sizes match for each file
-                for i in range(sub.n_mappings):
-                    source_file_path = sub.mappings[i]["sources"][0]
-                    destination_file_path = sub.mappings[i]["destinations"][0]
-                    source_file = os.path.basename(source_file_path)
-                    destination_file = os.path.basename(destination_file_path)
-                    source_size = source_sizes[source_file]
-                    destination_size = destination_sizes[destination_file]
-
-                    # check if file sizes match
-                    if source_size == destination_size:
-                        continue
-                    else:
-                        mismatch = True
-                        print(
-                            "\033[1;91m"
-                            + f"File size mismatch for {destination_file}!"
-                            + "\033[0m"
-                        )
-                        print(
-                            f"Source file: {source_file},\n size: {source_size} bytes"
-                        )
-                        print(
-                            f"Destination file: {destination_file},\n size: {destination_size} bytes\n"
-                        )
-
+                mismatch = file_sizes_mismatch(
+                    sub.mappings,
+                    source_sizes,
+                    destination_sizes
+                )
                 if mismatch:
                     status = Y
                 else:
                     status = G
-            # if file count check fails, skip file size check and just report missing files
+            # if file count check fails, skip file size check and just report
+            # missing files
             else:
                 status = R
 
